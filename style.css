@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 150;
+    padding: 550;
+    /* background-color: #d6d3d3; */
+}
+
+body{
+    /* background-color: #d6d3d3; */
+}
+/* head */
+.back-image{
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.backphoto{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 100%;
+    z-index: 0;
+     
+    
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 150px; 
+    cursor: pointer; 
+}
+
+li, a, button {
+    /* font-family: ; */
+    text-decoration: none;
+    color: #edf0f1;
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    /* background-color: red; */
+}
+
+.nav__links{
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: green;
+}
+.moto{
+    text-align: center;
+}
+
+.stack{
+    display: flex;
+    justify-content: center;
+}
+.fullstack{
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    background: rgb(11, 194, 139);
+}
+
+.frontend{
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    background: rgb(11, 194, 139);
+}
+.backend{
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    background: rgb(11, 194, 139);
+}
+.service{
+    text-align: center;
+}
+.our-service{
+    border: 40px;
+    display: flex;
+    justify-content:space-between;
+    /* flex-direction: row; */
+    align-items: center;
+    margin: 60px;
+}
+.web ul{
+    border: 10px;
+    color: rgb(11, 194, 139);
+}
+.wordpress{
+    border: rgb(11, 194, 139);
+}
+.ussd ul{
+    border: rgb(11, 194, 139);
+}
+.recent_work{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+.recent_work img{
+    height: 420px;
+    width: auto;
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    /* background: aquamarine; */
+}
+.btn{
+    background-color: rgba(0,139,169, 0.8);
+}
+.cpyrght{
+    
+}
+.all{
+    /* background-color: blue; */
+    position:relative;
+    top: 0%;
+    height: 100vh;
+    /* overflow: hidden; */
+    width: 100vw;
+}
+.sub-all{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.moto{
+    margin-top:10% ;
+    margin-bottom:13% ;
+
+}
