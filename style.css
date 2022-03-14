@@ -36,7 +36,7 @@ body{
 }
 
 li, a, button {
-    /* font-family: ; */
+
     text-decoration: none;
     color: #edf0f1;
     list-style-type: none;
@@ -47,7 +47,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10px;
-    /* background-color: red; */
+  
 }
 
 .nav__links{
